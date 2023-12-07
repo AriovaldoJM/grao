@@ -1180,9 +1180,16 @@ hr.divisoria {
     .extrai-divisoria{
         display: none;
     }
-    .padding-text{
-        padding-bottom: 30px !important;
+    .extrai-divisoria-right{
+        display: none;
     }
+    .padding-text{
+        padding: 0px !important;
+    }
+    .display-menu{
+        padding-top: ;
+    }
+    
 }
 
 @media screen and (max-width:330px) {
@@ -1219,38 +1226,9 @@ hr.divisoria {
     .px-12{
         display: none;
     }
-    .padding-text{
-        padding-bottom: 30px !important;
+    .extrai-divisoria{
+        display:none;
     }
 }
 
 @media screen and (max-height:590px) {}
-
-.ajuste-higth{
-    display: flex;
-    margin-left: 25px;
-    text-align:justify;
-}
-
-.teste{
-    margin-bottom: 1px !important;
-    padding-bottom: 1px !important;
-}
-.teste1{
-    margin-top: 1px !important;
-    padding: 1px !important;
-}
-.teste3{
-    margin-top: 1px !important;
-    padding: 1px !important;
-}
-.testet{
-    font-size: 50px;
-}
-
-/* .teste{
-    height: 100px !important;
-} */
-/* .teste1{
-    height: 500px !important;
-} */
