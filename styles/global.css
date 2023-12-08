@@ -107,12 +107,13 @@ small {
 
 .alt-small {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 10px;
 }
 
 .alt-text {
     font-size: 21px;
     line-height: 24px
+    
 }
 
 .alt-biggest {
@@ -262,6 +263,10 @@ a:hover {
 
 .text-black {
     color: #000 !important;
+}
+.alt-text-titulo{
+    font-size: 28px !important;
+    line-height: 21px
 }
 
 .bg-orange {
@@ -761,6 +766,8 @@ hr.divisoria {
 .corpoCardBlog {
     min-height: 250px;
     padding: 20px;
+    justify-content: space-around;
+
 }
 
 .blog-home h5 {
@@ -1232,3 +1239,12 @@ hr.divisoria {
 }
 
 @media screen and (max-height:590px) {}
+
+.referencia-titulo{
+    font-size: 14px !important;
+    color: #8e8d8d !important;
+}
+.teste-teste{
+    display: flex;
+    justify-content: space-between;
+}
