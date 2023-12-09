@@ -267,7 +267,7 @@ a:hover {
 .alt-text-titulo{
     font-size: 28px !important;
     line-height: 21px;
-    padding: 2px !important;
+    padding: 8px !important;
 }
 
 .bg-orange {
@@ -1254,10 +1254,15 @@ hr.divisoria {
     justify-content: space-between;
     border-bottom: 1px solid #8e8d8d !important;
     width: 90%;
-    height: 28px;
+    height: 18px;
     padding: 0px !important;
 }
 
 .color-text-titulo{
     color: #201f1f !important;
 }
+.alt-d{
+    height: 25px;
+}
+.alt-d-uni{
+    padding: 0px 10px 0px 10px;}
