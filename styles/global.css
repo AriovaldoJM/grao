@@ -266,7 +266,8 @@ a:hover {
 }
 .alt-text-titulo{
     font-size: 28px !important;
-    line-height: 21px
+    line-height: 21px;
+    padding: 2px !important;
 }
 
 .bg-orange {
@@ -1028,7 +1029,7 @@ hr.divisoria {
     }
 
     .capaCardBlog {
-        width: 100%;
+        width: 25%;
     }
 
     .blog-home .blog-conteudo {
@@ -1193,9 +1194,7 @@ hr.divisoria {
     .padding-text{
         padding: 0px !important;
     }
-    .display-menu{
-        padding-top: ;
-    }
+   
     
 }
 
@@ -1243,8 +1242,22 @@ hr.divisoria {
 .referencia-titulo{
     font-size: 14px !important;
     color: #8e8d8d !important;
+    text-align: left !important;
+    padding-top: 0px !important;
 }
 .teste-teste{
     display: flex;
     justify-content: space-between;
+}
+.teste-border-bootom{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #8e8d8d !important;
+    width: 90%;
+    height: 28px;
+    padding: 0px !important;
+}
+
+.color-text-titulo{
+    color: #201f1f !important;
 }
